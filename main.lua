@@ -10,4 +10,6 @@ function drawText(_x,_y,_line1,_line2,_line3)
   print("|".._line3..(" "):rep(w-(#_line3+2)).."|")
   print("\\"..("-"):rep(w-2).."/")
 end
-drawText(nil,nil,"Welcome to Overtale! This is (or will be)","uyo","gu")
+drawText(nil,nil,"Welcome to Overtale! This is (or will be) a RPG",
+                 "game created by manu_03. I hope you enjoy it!",
+                 "so let's start talking about you. What's your name?")
